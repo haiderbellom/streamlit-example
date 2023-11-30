@@ -1,6 +1,11 @@
-# Welcome to Streamlit!
+pip install -r requirements.txt
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+python ETL\extract.py
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+python ETL\transform.py
+
+python ETL\load.py
+
+streamlit ETL\run app.py
+
+python -m streamlit run ETL\app.py
